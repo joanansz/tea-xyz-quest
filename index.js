@@ -1,4 +1,9 @@
-module.exports = function() {
-  console.log('Tea moon');
-  return;
-};
+/* Dependencies */
+
+const areObjects = require('are-objects');
+const areArrays = require('are-arrays');
+
+
+
+const x = (a, b) => a * b
+exports.x = x
